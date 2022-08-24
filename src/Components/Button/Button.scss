@@ -1,0 +1,33 @@
+.btn {
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #1D92FF;
+    border: 1px solid transparent;
+    background: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.5s;
+    z-index: 10;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    animation: none;
+    //animation-play-state: paused;
+}
+
+.btn {
+    animation: pulse 2s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+    box-shadow: 0 0 0 0 white;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 18px rgba(255, 255, 255, 0);
+    }
+}
