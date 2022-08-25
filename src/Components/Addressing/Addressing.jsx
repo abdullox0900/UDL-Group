@@ -21,7 +21,7 @@ function Addressing() {
         <>
             <Container>
                 <section className="addressing">
-                    <div className="addressing__text"><span>UDL</span>Group</div>
+                    <Brend />
                     <h2 className="addressing__title">Что Вы получаете обращаясь к нам</h2>
 
                     <ul className="addressing__list">

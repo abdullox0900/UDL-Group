@@ -1,0 +1,83 @@
+.forwhat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 100px;
+        width: 625px;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 135%;
+        text-align: center;
+    }
+
+    &__list {
+        width: 1100px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__item+&__item {
+        margin-top: 100px;
+    }
+
+    &__item:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    &__item:nth-child(1) {
+        .forwhat__icon {
+            position: absolute;
+            left: -40px;
+        }
+    }
+
+    &__box {
+        width: 550px;
+    }
+
+    &__item-title {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    &__desc {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: #727272;
+    }
+
+    &__icon {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .animate-rotate {
+        animation-name: rotate;
+        animation-duration: 30s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        
+        100% {
+            transform: rotate(359deg);
+        }
+    }
+}

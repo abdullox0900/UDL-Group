@@ -7,7 +7,7 @@ import "../Brend/Brend.scss";
 function Brend() {
     return (
         <>
-            <p className="brend__text"><span className="brend__name">UDL</span>Group</p>
+            <div className="addressing__text"><span>UDL</span>Group</div>
         </>
     )
 }
