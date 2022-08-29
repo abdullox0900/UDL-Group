@@ -7,6 +7,7 @@ import Hero from "../../Components/Hero/Hero";
 import Forwhat from "../../Components/Forwhat/Forwhat";
 import Addressing from "../../Components/Addressing/Addressing";
 import Features from "../../Components/Features/Features";
+import Service from "../../Components/Service/Service";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Hero />
             <Features />
             <Forwhat />
+            <Service />
             <Addressing />
         </>
     )

@@ -63,7 +63,11 @@ function Addressing() {
                             addressingData.map((data) => {
                                 return (
                                     <>
-                                        <li className="addressing__item">
+                                        <li className="addressing__item" data-aos="fade-zoom-in"
+                                            data-aos-easing="ease-in-back"
+                                            data-aos-delay="300"
+                                            data-aos-duration="1500"
+                                            data-aos-offset="0">
                                             <img className="addressing__icon" src={data.img} alt="icon-img" />
                                             <h4 className="addressing__item-title">{data.title}</h4>
                                             <p className="addressing__desc">{data.desc}</p>
