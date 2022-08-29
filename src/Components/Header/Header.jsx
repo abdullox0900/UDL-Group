@@ -17,19 +17,19 @@ function Header() {
                 <nav className="nav">
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#" className="nav__link">Home</a>
+                            <a href="#service" className="nav__link">Услуги</a>
                         </li>
                         <li className="nav__item">
-                            <a href="#" className="nav__link">Home</a>
+                            <a href="#benefits" className="nav__link">Плюсы</a>
                         </li>
                         <li className="nav__item">
-                            <a href="#" className="nav__link">Home</a>
+                            <a href="#" className="nav__link">Портфолио</a>
                         </li>
                         <li className="nav__item">
-                            <a href="#" className="nav__link">Home</a>
+                            <a href="#" className="nav__link">Цены на сайты</a>
                         </li>
                         <li className="nav__item">
-                            <a href="#" className="nav__link">Home</a>
+                            <a href="#" className="nav__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>

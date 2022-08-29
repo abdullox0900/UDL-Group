@@ -45,7 +45,7 @@ function Service() {
     return (
         <>
             <Container>
-                <section className="service">
+                <section className="service" id="service">
                     <Brend />
                     <h2 className="service__title">Наши услуги</h2>
                     <p className="service__desc">UDL - Group - Студия, которая занимается разработкой сайтов и Также наши услуги включают техподдержку и модернизацию существующих сайтов.</p>
