@@ -8,6 +8,7 @@ import Forwhat from "../../Components/Forwhat/Forwhat";
 import Addressing from "../../Components/Addressing/Addressing";
 import Features from "../../Components/Features/Features";
 import Service from "../../Components/Service/Service";
+import Prices from "../../Components/Prices/Prices";
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
             <Forwhat />
             <Service />
             <Addressing />
+            <Prices />
         </>
     )
 }
